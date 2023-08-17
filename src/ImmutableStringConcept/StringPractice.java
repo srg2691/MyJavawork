@@ -11,13 +11,13 @@ public class StringPractice {
 		this.name=name;
 		this.city=city;
 	}
-//	public static String concat(String name,String city)
-//	{
-//		String con=name+city;
-//		System.out.println(con);
-//		return con;
-//	}
-//	
+	public static String concat(String name,String city)
+	{
+		String con=name+city;
+		System.out.println(con);
+		return con;
+	}
+	
 	
 	public static void main(String[] args) {
 		
@@ -28,8 +28,9 @@ public class StringPractice {
 		StringPractice sp=new StringPractice("Sarang","Pune");
 		System.out.println(sp.name);
 		System.out.println(sp.city);
+		
 	
-		//concat("Sarang","Jabalpur");
+		concat("Sarang","Jabalpur");
 		
 
 	}

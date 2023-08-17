@@ -9,7 +9,9 @@ public class Practice {
 	{
 		String str1=" This is a string ";
 		
-		for(int i=str1.length()-1;i>=0;i--)
+		char ch[]=str1.toCharArray();
+		
+		for(int i=ch.length-1;i>=0;i--)
 		{
 			System.out.print(str1.charAt(i));
 			//String rev=rev+str1.charAt(i);
@@ -66,7 +68,7 @@ public class Practice {
 	public static void main(String[] args) {
 		
 		Practice p=new Practice();
-		//p.reverse();
+		p.reverse();
 		p.CountChar();
 		
 	

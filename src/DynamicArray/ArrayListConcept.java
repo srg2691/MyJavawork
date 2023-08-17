@@ -13,7 +13,7 @@ public class ArrayListConcept {
 		//static array to be used when we know the size is fixed like months in a year
 		
 		//dynamic array
-		//ArrayList  -deafult class available in jav
+		//ArrayList  -deafult class available in java
 
 		//Arraylist is order based collection - order/index is maintained 
 		//values will be stored starting from 0th position in the array list

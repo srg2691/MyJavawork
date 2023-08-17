@@ -4,6 +4,8 @@ public class Methods {
 	
 	public Methods() {
 		
+		final int var;//blank final variable, can be used in constructor and static block only
+		
 		System.out.println("constructor called");
 		
 	
@@ -18,6 +20,7 @@ public class Methods {
 	public int sum(int a, int b,int add) {
 		add=a+b;
 		System.out.println(" sum is "+add);
+		
 		return add;
 	}
 	public static int diff(int a,int b,int sub) {

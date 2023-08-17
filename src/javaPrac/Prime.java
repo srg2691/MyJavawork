@@ -27,7 +27,7 @@ public class Prime {
 		// TODO Auto-generated method stub
 		
 		Prime p=new Prime();
-		int z=p.num(33);
+		int z=p.num(34);
 
 	}
 

@@ -17,7 +17,7 @@ public class StaticConcept {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int i=6;
+		int i=7;
 		StaticConcept.i=6;
 		System.out.println(StaticConcept.i);
 		System.out.println(i);

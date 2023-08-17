@@ -8,6 +8,13 @@ public class StringManipulation {
 		public static void main(String[] args) {
 
 			String str = "hi this is my java code and i am so happy";
+			System.out.println(str.indexOf('i', 5));
+			
+			String str1="i am a man";
+			System.out.println(str1.substring(2, 5));
+			
+			String m ="This is my testing code";
+			System.out.println(m.substring(m.indexOf("is")+3, 8));
 
 			System.out.println(str.length());
 			int len = str.length();
@@ -21,6 +28,8 @@ public class StringManipulation {
 			System.out.println(str.charAt(40));
 			// System.out.println(str.charAt(41));//StringIndexOutOfBoundsException
 			System.out.println(str.charAt(2));
+			
+			System.out.println("---------------");
 
 			System.out.println(str.indexOf('h'));
 			System.out.println(str.indexOf("java"));
@@ -35,6 +44,11 @@ public class StringManipulation {
 			
 			System.out.println(str.indexOf('i'));//1st occurrence of i
 			System.out.println(str.indexOf('i', str.indexOf('i')+1));//2nd occurrence of i
+			System.out.println("----=======-------------------------==============");
+			
+			
+			
+			System.out.println("0000000000000-------------000000000000");
 			
 			System.out.println(str.indexOf("Python"));
 			

@@ -43,7 +43,7 @@ public class ListInterfaceconcept {
 		List<Integer> marks=Arrays.asList(12,45,67,89,90);
 		//same implementation with Integer type
 		
-		//coversion of static array to a dynamic array
+		//conversion of static array to a dynamic array
 		
 		String country[]= {"India","Pakistan","France","USA","UK"};
 		
