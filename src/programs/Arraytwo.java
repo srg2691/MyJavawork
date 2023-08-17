@@ -1,4 +1,4 @@
-package PracticeQues;
+package programs;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

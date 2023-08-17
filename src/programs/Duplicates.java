@@ -1,4 +1,4 @@
-package PracticeQues;
+package programs;
 
 import java.util.Arrays;
 
